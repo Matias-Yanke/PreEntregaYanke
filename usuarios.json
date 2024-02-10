@@ -1,0 +1,5 @@
+[
+    {"nombre": "Usuario1", "peso": 70, "altura": 1.75, "imc": 22.86},
+    {"nombre": "Usuario2", "peso": 80, "altura": 1.80, "imc": 24.69},
+    {"nombre": "Usuario3", "peso": 65, "altura": 1.70, "imc": 22.49}
+]
