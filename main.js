@@ -25,8 +25,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Validar que los datos ingresados sean correctos
         if (!nombre || isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
-            alert("Por favor, ingrese datos válidos.");
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Por favor, ingrese datos válidos.",
+            });
             return null;
+            
         }
 
         // Calcular el IMC del usuario
